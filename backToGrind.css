@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    background-color: rgb(47, 46, 46);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.main-heading{
+    color: white;
+    font-size: 80px;
+    margin-left: 30px ;
+    margin-top: 3px;
+    transition: ease-in-out 0.1s;
+}
+
+.main-heading:hover {
+    transform: scale(1.07);
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    /* margin: 5px; */
+    margin-top: 7px;
+    margin-right: 10px;
+    padding: 2px;
+    transition: ease-in-out 0.1s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.main-image{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.main-image img{
+    border-radius: 24px;
+    width: 70%;
+    height: fit-content;
+    transition: ease-in-out 0.2s;
+}
+
+.main-image p{
+    font-size: small;
+    color: aliceblue;
+}
+
+.main-image img:hover{
+    transform: scale(1.03);
+}
+
+.pixel-art{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    height: fit-content;
+}
+
+.write-up{
+    display: flex;
+    margin: 20px;
+    margin-left: 35px;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 20px;
+    margin-left: 35px;
+    font-size: 4rem;
+    color: beige;
+}
+
+.content{
+    width: 500px;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: rgb(173, 173, 141);
+}
+
+.content-image{
+    height: fit-content;
+}
+
+.content-image img{
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 40%;
+    width: 530px;
+    height: 350px;
+}
+
+.origin {
+    height: fit-content;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.origin-content{
+    width: auto;
+    margin-top: 10px;
+    margin: 0px  5px;
+    font-size: 2rem;
+    color: rgb(173, 173, 141);
+    margin-bottom: 40px;
+}
+
+.origin-image img{
+    height: 100vh;
+    width: 100%;
+}
+
+.end{
+    text-align: center;
+    height: 100vh;
+}
+
+.end img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.major-link{
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    color: rgb(132, 131, 130);
+
+}
+
+.link{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.end h3{
+    color: rgb(160, 159, 157);
+    font-size: medium;
+    padding-top: 20%;
+}
+
+.link a:hover{
+    transform: scale(1.1);
+}
